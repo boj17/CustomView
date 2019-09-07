@@ -11,22 +11,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".animation.AnimationSet2Activity">
+        <activity android:name=".draw.MyDrawViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".animation.XMLAnimatorActivity">
-
-        </activity>
-        <activity android:name=".animation.AnimatorSetActivity"></activity>
+        <activity android:name=".animation.AnimationSet2Activity"></activity>
+        <activity android:name=".animation.XMLAnimatorActivity"></activity>
+        <activity android:name=".animation.AnimatorSetActivity" />
         <activity android:name=".animation.ObjectAnimatorActivity" />
         <activity android:name=".animation.ValueAnimation2Activity" />
         <activity android:name=".animation.ValueAnimatorActivity" />
         <activity android:name=".animation.AnimationActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>

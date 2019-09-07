@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
+import com.whw.customview.draw.MyBézierView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
 //        frameLayout.addView(new MyView(this));
 //        frameLayout.addView(new MyView1(this));
 //        frameLayout.addView(new MyRegionView(this));
-        frameLayout.addView(new MyCanvasView(this));
+//        frameLayout.addView(new MyCanvasView(this));
+//        frameLayout.addView(new MyBézierView(this));
 
 
     }
